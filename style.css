@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Antonio',
+    sans-serif; */
+    font-family: 'Spartan',
+    sans-serif;
+}
+
+body {
+    margin: auto;
+    background-image: url('./assets/background-stars.svg');
+    background-color: #070724;
+    width: 100%;
+    min-height: 100vh;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Spartan',  sans-serif;
+}
+
+.navbar {
+    margin: auto;
+    text-transform: uppercase;  
+    border-bottom: 1px solid lightgray;
+    margin-top: 80px;
+    padding: 5px;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    height: 25px ;
+    font-size: 11px;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+.planet_image {
+    margin: auto;
+    margin-top: 122px;
+
+}
+
+img {
+    width: 184px;
+    height: 184px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info_section {
+    margin-top: 61px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    /* font-family: 'Antonio',
+    sans-serif; */
+    padding: 20px;
+    height: 253px;
+
+}
+
+.info_overview  {
+    font-size: 11px;
+    width: 339px;
+    height: 110px;
+}
+
+.info_overview p {
+    margin-top: 40px;
+    line-height: 22px;
+    display: flex;
+
+}
+.info_overview p a {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+ .info_overview p a img {
+    width: 12px;
+    height: 12px;
+}
+
+.info_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 281px;
+    height: 152px;
+    margin-left: 1.5em;
+}
+
+.btn {
+    height: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 9px;
+    text-align: left;
+    border: solid 1px ;
+}
+
+.btn_overview {
+    background-color: #419ebb;
+}
+
+.overview_main {
+    display: block;
+}
+.structure_main {
+    display: none;
+}
+ .surface_main {
+    display: none;
+}
+.planet_out {
+    display: block;
+}
+.planet_in {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_item {
+    border: solid #ffffff 1px;
+    width: 164px;
+    height: 88px;
+    padding: 10px;
+    letter-spacing: .73px;
+}
+
+.footer_item .header {
+    margin: 1em;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer_item .bottom {
+    margin: 1em;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+
