@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Planets fact site</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
-  Jupiter
+  <div class="navbar">
+    <ul class="nav_list">
+      <li class="nav_item"><a href="./index.html">Mercury</a></li>
+      <li class="nav_item"><a href="./venus.html">Venus</a></li>
+      <li class="nav_item"><a href="./earth.html">Earth</a></li>
+      <li class="nav_item"><a href="./mars.html">Mars</a></li>
+      <li class="nav_item"><a href="#">Jupitar</a></li>
+      <li class="nav_item"><a href="./saturn.html">Saturn</a></li>
+      <li class="nav_item"><a href="./uranus.html">Uranus</a></li>
+      <li class="nav_item"><a href="./neptune.html">Neptune</a></li>
+    </ul>
+
+  </div>
+
+  <h1 class="planet_name">Jupiter</h1>
+
 
   <!-- Overview Content Start -->
+  <div class="main">
+    <div class="planet_image planet_out">
+      <img src="./assets/planet-jupiter.svg" alt="Jupiter">
+    </div>
+    <div class="planet_image planet_in">
+      <img src="./assets/planet-jupiter-internal.svg" alt="Jupiter">
+    </div>
+    <div class="info_section">
+      <div class="info_overview overview_main">
+        <p>
+          Jupiter is the fifth planet from the Sun and the largest in the Solar System.
+          It is a gas giant with a mass two and a half times that of all the other
+          planets in the Solar System combined, but less than one-thousandth the mass
+          of the Sun.
+        </p>
+        <p>Source :<span><a href="https://en.wikipedia.org/wiki/Jupiter">Wikipedia<img class="icon"
+                src="./assets/icon-source.svg" alt=""></a></span></p>
+      </div>
+      <div class="info_overview structure_main">
+        <p>
+          When the Juno arrived in 2016, it found that Jupiter has a very diffuse core
+          that mixes into its mantle. A possible cause is an impact from a planet of
+          about ten Earth masses a few million years after Jupiter's formation, which
+          would have disrupted an originally solid Jovian core.
+        </p>
 
-  Jupiter is the fifth planet from the Sun and the largest in the Solar System. 
-  It is a gas giant with a mass two and a half times that of all the other 
-  planets in the Solar System combined, but less than one-thousandth the mass 
-  of the Sun.
+        <p>Source :<a href="https://en.wikipedia.org/wiki/Jupiter#Internal_structure"><span>Wikipedia</span><img
+              class="icon" src="./assets/icon-source.svg" alt=""></a></p>
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Jupiter -->
+      </div>
 
-  <!-- Overview Content End -->
+      <div class="info_overview surface_main">
+        <p>
+          The best known feature of Jupiter is the Great Red Spot, a persistent
+          anticyclonic storm located 22° south of the equator. It is known to have
+          existed since at least 1831, and possibly since 1665.
+        </p>
 
-  <!-- Internal Structure Content Start -->
+        <p>Source :<span><a href="https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices">Wikipedia<img
+                class="icon" src="./assets/icon-source.svg" alt=""></a></span></p>
+      </div>
 
-  When the Juno arrived in 2016, it found that Jupiter has a very diffuse core 
-  that mixes into its mantle. A possible cause is an impact from a planet of 
-  about ten Earth masses a few million years after Jupiter's formation, which 
-  would have disrupted an originally solid Jovian core.
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Jupiter#Internal_structure -->
 
-  <!-- Internal Structure Content End -->
+      <div class="info_menu">
+        <input type="button" class="btn btn_overview" id="overview" value="01 overview" />
+        <input type="button" class="btn btn_structure" id="structure" value="02 internal Structure" />
+        <input type="button" class="btn btn_surface" id="surface" value="03 surface geology" />
+      </div>
+    </div>
 
-  <!-- Surface Geology Content Start -->
+    <div class="footer">
+      <div class="footer_item">
+        <div class="header">Rotation Time</div>
+        <div class="bottom">9.93 Hours</div>
+      </div>
+      <div class="footer_item">
+        <div class="header">Revolution Time</div>
+        <div class="bottom">11.86 Years</div>
+      </div>
+      <div class="footer_item">
+        <div class="header">Radius</div>
+        <div class="bottom">69,911 KM</div>
+      </div>
+      <div class="footer_item">
+        <div class="header">Average Temp.</div>
+        <div class="bottom">-108°c</div>
+      </div>
+    </div>
 
-  The best known feature of Jupiter is the Great Red Spot, a persistent 
-  anticyclonic storm located 22° south of the equator. It is known to have 
-  existed since at least 1831, and possibly since 1665.
 
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices -->
-
-  <!-- Surface Geology Content End -->
-
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
-
-  Rotation Time
-  9.93 Hours
-
-  Revolution Time
-  11.86 Years
-
-  Radius
-  69,911 KM
-
-  Average Temp.
-  -108°c
+    <script src="/index.js"></script>
 </body>
+
 </html>
