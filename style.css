@@ -181,6 +181,11 @@ img {
         position: relative;
        
     }
+    .planet_name {
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
 
     .info_section {
         flex-direction: column;
