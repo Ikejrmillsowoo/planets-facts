@@ -64,8 +64,6 @@ img {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
-    /* font-family: 'Antonio',
-    sans-serif; */
     padding: 20px;
     height: 253px;
 
@@ -120,6 +118,7 @@ img {
 }
 .overview_main {
     display: block;
+    margin-top: -40px;
 }
 .structure_main {
     display: none;
@@ -162,5 +161,50 @@ img {
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 900px) {
+   
+    .main{
+        width: 80%;
+    }
+    .nav_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      
+    }
+    .nav_item {
+        margin-right: 3em;
+    }
+    img {
+        margin-left: 30%;
+        margin-top: 10%;
+        position: relative;
+       
+    }
+
+    .info_section {
+        flex-direction: column;
+        position: relative;
+        left: 60%;
+        height: 650px;
+        margin-top: -20em;
+        margin-bottom: -10em;
+        width: 60%;
+    }
+    .footer {
+        width: 80%;
+        margin: auto;
+        margin-top: -40px;
+
+    }
+    .footer_item {
+        width: 225px;
+        height: 88px;
+        padding: 10px;
+        letter-spacing: .73px;
+    }
+
+
+}
 
 
